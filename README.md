@@ -1,6 +1,6 @@
 [![](https://www.banuba.com/hubfs/Banuba_November2018/Images/Banuba%20SDK.png)](https://www.banuba.com/video-editor-sdk)
 
-# Video Editor SDK. Export Integration sample for iOS.
+# Video Editor SDK. Playback Integration sample for iOS.
 
 - [Requirements](#Requirements)
 - [Supported media formats](#Supported-media-formats)
@@ -9,6 +9,8 @@
     + [CocoaPods](#CocoaPods)
     + [Configure edit flow](#Configure-edit-flow)
     + [Configure effects](#Configure-effects)
+    + [Configure playback view](#Configure-playback-view) 
+
 
 ## Requirements
 This is what you need to run the AI Video Editor SDK
@@ -33,7 +35,7 @@ There is nothing complicated about it - [contact us](https://www.banuba.com/vide
 ## Token 
 We offer а free 14-days trial for you could thoroughly test and assess Video Editor SDK functionality in your app. To get access to your trial, please, get in touch with us by [filling a form](https://www.banuba.com/video-editor-sdk) on our website. Our sales managers will send you the trial token.
 
-Video Editor token should be put [here](https://github.com/Banuba/ve-sdk-iOS-export-sample/blob/b63c236ea1690ea8c460b103649dc1f3bc2c65f6/ExportAPISample/ExportAPISample/ViewControllerExtensions/VideoEditorServiceInitialization.swift#L28).
+Video Editor token should be put [here](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/84f91009a6a9624a2752f4111d1cb172b6f766e7/PlaybackAPISample/PlaybackAPISample/Sample/VideoEditorServiceInitialization.swift#L25).
 
 ## Getting Started
 ### CocoaPods
@@ -90,15 +92,15 @@ Before displaying you need to apply default rotate transform:
     effectApplicator?.addTransformEffect(atStartTime: .zero, end: .indefinite, rotation: originalRotation)
 ```
 
-See the sample export video flow [here](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/6fe21fc1f2c253c585f09ca6295f4c31a0b8b9ea/PlaybackAPISample/PlaybackAPISample/Sample/ProcessingFunctionality%20.swift#L45).
+See the example of rotate transformation [here](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/6fe21fc1f2c253c585f09ca6295f4c31a0b8b9ea/PlaybackAPISample/PlaybackAPISample/Sample/ProcessingFunctionality%20.swift#L45).
 
 ### Configure effects
 
-You can add an effect objects such as gif/text, viasual, speed, color to exporting video. 
+You can add an effect objects such as gif/text, viasual, speed, color to playback video. 
 
 To be able to use following functionality you need to operate on EffectApplicator entity.
 
-Please, checkout [example](https://github.com/Banuba/ve-sdk-iOS-export-sample/blob/2eb9738c23b397caaf46bd665bf436107c863f6f/ExportAPISample/ExportAPISample/Sample/EffectsApplicator.swift#L15)
+Please, checkout [example](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/84f91009a6a9624a2752f4111d1cb172b6f766e7/PlaybackAPISample/PlaybackAPISample/Sample/EffectsApplicator.swift#L15)
 
 ``` swift
 /// EffectApplicator allows you to add GIF and text effects to your existing VideoEditorServiсe composition
@@ -164,7 +166,7 @@ public class EffectApplicator {
 }
 ```
 
-### Configure Playable view
+### Configure playback view
 
 To be able to use following functionality you need to operate on VEPlayback entity.
 
