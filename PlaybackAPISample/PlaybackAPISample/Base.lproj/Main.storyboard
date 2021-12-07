@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlaybackAPISample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchOffer.bg_image_03" translatesAutoresizingMaskIntoConstraints="NO" id="qnX-uE-obv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banuba_logo" translatesAutoresizingMaskIntoConstraints="NO" id="UCr-cp-XCA">
+                                <rect key="frame" x="132" y="94" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="HpT-2n-6XT"/>
+                                    <constraint firstAttribute="height" constant="30" id="I5s-gp-JL1"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vA1-0p-VWO">
+                                <rect key="frame" x="-45" y="0.0" width="504" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vA1-0p-VWO" secondAttribute="height" multiplier="9:16" id="jUE-jK-iCl"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfD-0c-UDF">
+                                <rect key="frame" x="82" y="772" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Hz0-hl-m6w"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="pfd-kz-o73"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open Video">
+                                    <backgroundConfiguration key="background" image="Contact.connectContacts"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="openVideoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CW9-l9-DWE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qnX-uE-obv" secondAttribute="bottom" id="8Kj-B9-yzv"/>
+                            <constraint firstItem="vA1-0p-VWO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cc8-J3-FQA"/>
+                            <constraint firstItem="vA1-0p-VWO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JpB-aS-3tE"/>
+                            <constraint firstItem="qnX-uE-obv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OTk-kn-LP1"/>
+                            <constraint firstAttribute="bottom" secondItem="vA1-0p-VWO" secondAttribute="bottom" id="TOY-77-IjD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XfD-0c-UDF" secondAttribute="bottom" constant="40" id="XWv-UD-7Jg"/>
+                            <constraint firstItem="qnX-uE-obv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YmD-Jl-Khl"/>
+                            <constraint firstItem="qnX-uE-obv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a7k-7A-i57"/>
+                            <constraint firstItem="UCr-cp-XCA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="be0-lF-BHW"/>
+                            <constraint firstItem="XfD-0c-UDF" firstAttribute="centerX" secondItem="qnX-uE-obv" secondAttribute="centerX" id="dpG-7h-Nxm"/>
+                            <constraint firstItem="UCr-cp-XCA" firstAttribute="centerX" secondItem="qnX-uE-obv" secondAttribute="centerX" id="rf8-Uf-X50"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playerContainerView" destination="vA1-0p-VWO" id="4MW-Vb-e1i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="123.88392857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Contact.connectContacts" width="240" height="48"/>
+        <image name="banuba_logo" width="102" height="26"/>
+        <image name="launchOffer.bg_image_03" width="562.5" height="1218"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

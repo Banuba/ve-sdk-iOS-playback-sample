@@ -1,0 +1,16 @@
+source 'https://github.com/Banuba/specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PlaybackAPISample' do
+  pod 'BanubaSDKServicing', '0.21.0'
+  pod 'VideoEditor', '0.21.0'
+  pod 'BanubaUtilities', '0.21.0'
+  pod 'BanubaVideoEditorEffectsSDK', '0.21.0'
+  pod 'BanubaLicenseServicingSDK', '0.21.0'
+  pod 'BNBLicenseUtils', '1.20.1'
+  pod "BSImagePicker"
+  pod 'VEPlaybackSDK', '0.21.0'
+end
