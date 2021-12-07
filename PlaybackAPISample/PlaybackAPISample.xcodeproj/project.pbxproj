@@ -11,7 +11,7 @@
 		8A70F6E6275F66F200CACBE8 /* luts in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F6E4275F66F200CACBE8 /* luts */; };
 		8A70F6E7275F66F200CACBE8 /* GifExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F6E5275F66F200CACBE8 /* GifExample.gif */; };
 		8A70F6F3275F66FC00CACBE8 /* EffectsApplicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6E9275F66FB00CACBE8 /* EffectsApplicator.swift */; };
-		8A70F6F4275F66FC00CACBE8 /* ExportFunctionality .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6EA275F66FB00CACBE8 /* ExportFunctionality .swift */; };
+		8A70F6F4275F66FC00CACBE8 /* ProcessingFunctionality .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6EA275F66FB00CACBE8 /* ProcessingFunctionality .swift */; };
 		8A70F6F5275F66FC00CACBE8 /* VideoEditorServiceInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6EB275F66FB00CACBE8 /* VideoEditorServiceInitialization.swift */; };
 		8A70F6F6275F66FC00CACBE8 /* VideoResolutionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6ED275F66FB00CACBE8 /* VideoResolutionCreator.swift */; };
 		8A70F6F8275F66FC00CACBE8 /* GalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6EF275F66FB00CACBE8 /* GalleryManager.swift */; };
@@ -33,7 +33,7 @@
 		8A70F6E4275F66F200CACBE8 /* luts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = luts; sourceTree = "<group>"; };
 		8A70F6E5275F66F200CACBE8 /* GifExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GifExample.gif; sourceTree = "<group>"; };
 		8A70F6E9275F66FB00CACBE8 /* EffectsApplicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsApplicator.swift; sourceTree = "<group>"; };
-		8A70F6EA275F66FB00CACBE8 /* ExportFunctionality .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExportFunctionality .swift"; sourceTree = "<group>"; };
+		8A70F6EA275F66FB00CACBE8 /* ProcessingFunctionality .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProcessingFunctionality .swift"; sourceTree = "<group>"; };
 		8A70F6EB275F66FB00CACBE8 /* VideoEditorServiceInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEditorServiceInitialization.swift; sourceTree = "<group>"; };
 		8A70F6ED275F66FB00CACBE8 /* VideoResolutionCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoResolutionCreator.swift; sourceTree = "<group>"; };
 		8A70F6EF275F66FB00CACBE8 /* GalleryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryManager.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8A70F6E9275F66FB00CACBE8 /* EffectsApplicator.swift */,
-				8A70F6EA275F66FB00CACBE8 /* ExportFunctionality .swift */,
+				8A70F6EA275F66FB00CACBE8 /* ProcessingFunctionality .swift */,
 				8A70F6EB275F66FB00CACBE8 /* VideoEditorServiceInitialization.swift */,
 				8A70F6FC275F678800CACBE8 /* PlaybackFunctionality.swift */,
 				8A70F711275F6B2F00CACBE8 /* PlaybackDelegate.swift */,
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A70F6F4275F66FC00CACBE8 /* ExportFunctionality .swift in Sources */,
+				8A70F6F4275F66FC00CACBE8 /* ProcessingFunctionality .swift in Sources */,
 				8ACE3329275F5C34008FA2D1 /* ViewController.swift in Sources */,
 				8A70F6FD275F678800CACBE8 /* PlaybackFunctionality.swift in Sources */,
 				8A70F6F8275F66FC00CACBE8 /* GalleryManager.swift in Sources */,
