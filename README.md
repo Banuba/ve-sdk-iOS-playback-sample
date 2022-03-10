@@ -68,7 +68,7 @@ pod install
 
 ### Configure edit flow
 
-Before displaying playable video you need to add your video asset to existing VideoEditorService instance.
+Before displaying playable video you need to add your video asset to existing `VideoEditorService` instance.
 
 ``` swift
     // Add video to the sequence
@@ -102,7 +102,7 @@ See the example of rotate transformation [here](https://github.com/Banuba/ve-sdk
 
 You can add an effect objects such as gif/text, viasual, speed, color to playback video. 
 
-To be able to use following functionality you need to operate on EffectApplicator entity.
+To be able to use following functionality you need to operate on `EffectApplicator` entity.
 
 Please, checkout [example](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/84f91009a6a9624a2752f4111d1cb172b6f766e7/PlaybackAPISample/PlaybackAPISample/Sample/EffectsApplicator.swift#L15)
 
@@ -172,9 +172,9 @@ public class EffectApplicator {
 
 ### Configure playback view
 
-To be able to use following functionality you need to operate on VEPlayback entity.
+To be able to use following functionality you need to operate on `VEPlayback` entity.
 
-VEPlayback consist of two public funcs, such as 'getPlayer' and 'getPlayableView'. First one allows you to create your own view which could be communicate with player instance. Second one allows you to get prepared view with player implementation.
+`VEPlayback` consist of two public funcs, such as `getPlayer` and `getPlayableView`. First one allows you to create your own view which could be communicate with player instance. Second one allows you to get prepared view with player implementation.
 
 ``` swift
   /// Allows you to get player instance with current videoEditorService asset composition.
@@ -206,19 +206,19 @@ Framework API's which implemented with playback-sample.
 
 ### Playback API
 
-'VEPlaybackSDK' allows you to display already setuped video composition from [Core API](https://github.com/Banuba/VideoEditor-iOS) and optionally edited with [Effects API](https://github.com/Banuba/BanubaVideoEditorEffectsSDK-iOS). So [Core API](https://github.com/Banuba/VideoEditor-iOS) is requires usage for 'VEPlaybackSDK'.
+`VEPlaybackSDK` allows you to display already setuped video composition from [Core API](https://github.com/Banuba/VideoEditor-iOS) and optionally edited with [Effects API](https://github.com/Banuba/BanubaVideoEditorEffectsSDK-iOS). So [Core API](https://github.com/Banuba/VideoEditor-iOS) is requires usage for `VEPlaybackSDK`.
 
 [API Reference](https://github.com/Banuba/VEPlaybackSDK-iOS)
 
 ### Effects API
 
-'VEEffectsSDK' allows you to edit video composition which already setuped in [Core API](https://github.com/Banuba/VideoEditor-iOS). So [Core API](https://github.com/Banuba/VideoEditor-iOS) is requires usage for 'VEEffectsSDK'.
+`VEEffectsSDK` allows you to edit video composition which already setuped in [Core API](https://github.com/Banuba/VideoEditor-iOS). So [Core API](https://github.com/Banuba/VideoEditor-iOS) is requires usage for `VEEffectsSDK`.
 
 [API Reference](https://github.com/Banuba/BanubaVideoEditorEffectsSDK-iOS)
 
 
 ### Core API
 
-Video editor is a core module for interaction between playback modules, export, etc. All transformations with effects, sounds, time, trimming take place inside this module. In order to use exporting, applying effects, or getting a player, first you need to use the essence of the 'VideoEditorService' entity and add the necessary video segments or assets to it.
+`VideoEditor` is a core module for interaction between playback modules, export, etc. All transformations with effects, sounds, time, trimming take place inside this module. In order to use exporting, applying effects, or getting a player, first you need to use the essence of the `VideoEditorService` entity and add the necessary video segments or assets to it.
 
 [API Reference](https://github.com/Banuba/VideoEditor-iOS)
