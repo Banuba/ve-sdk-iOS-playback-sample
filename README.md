@@ -10,6 +10,10 @@
     + [Configure edit flow](#Configure-edit-flow)
     + [Configure effects](#Configure-effects)
     + [Configure playback view](#Configure-playback-view) 
+- [API Reference](#API-Reference)
+    + [Playback API](#Export-API)
+    + [Effects API](#Effects-API)
+    + [Core API](#Core-API)
 
 
 ## Requirements
@@ -195,3 +199,20 @@ VEPlayback consist of two public funcs, such as 'getPlayer' and 'getPlayableView
 ```
 
 Please, checkout [example](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/6fe21fc1f2c253c585f09ca6295f4c31a0b8b9ea/PlaybackAPISample/PlaybackAPISample/Sample/PlaybackFunctionality.swift#L18)
+
+## API Reference
+
+Framework API's which implemented with export-sample.
+
+### Playback API
+
+[API Reference](https://github.com/Banuba/VEPlaybackSDK-iOS)
+
+### Effects API
+
+[API Reference](https://github.com/Banuba/BanubaVideoEditorEffectsSDK-iOS)
+
+
+### Core API
+
+[API Reference](https://github.com/Banuba/VideoEditor-iOS)
