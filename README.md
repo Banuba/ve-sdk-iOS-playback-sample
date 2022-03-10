@@ -202,7 +202,7 @@ Please, checkout [example](https://github.com/Banuba/ve-sdk-iOS-playback-sample/
 
 ## API Reference
 
-Framework API's which implemented with export-sample.
+Framework API's which implemented with playback-sample.
 
 ### Playback API
 
