@@ -11,7 +11,7 @@
     + [Configure effects](#Configure-effects)
     + [Configure playback view](#Configure-playback-view) 
 - [API Reference](#API-Reference)
-    + [Playback API](#Export-API)
+    + [Playback API](#Playback-API)
     + [Effects API](#Effects-API)
     + [Core API](#Core-API)
 
