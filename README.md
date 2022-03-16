@@ -48,7 +48,7 @@ In the sample project there is a division into folders, such as 'sample' and 'he
 
 The easiest way to integrate the Video Editor SDK in your mobile app is through [CocoaPods](https://cocoapods.org). If you haven’t used this dependency manager before, see the [Getting Started Guide](https://guides.cocoapods.org/using/getting-started.html).
 
-Important: Make sure that you have CocoaPods version >= 1.9.0 installed. Check your CocoaPods version using this command [pod --version]
+Important: Make sure that you have CocoaPods version >= 1.11.0 installed. Check your CocoaPods version using this command [pod --version]
 
 Please, refer to the example of [Podfile](https://github.com/Banuba/ve-sdk-iOS-playback-sample/blob/master/PlaybackAPISample/Podfile) lines which you need to add.
 
