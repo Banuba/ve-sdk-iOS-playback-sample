@@ -9,7 +9,7 @@ import Foundation
 
 // Banuba Modules
 import VideoEditor
-import BanubaVideoEditorEffectsSDK
+import VEEffectsSDK
 
 // MARK: - Processing Helpers
 extension ViewController {
@@ -23,7 +23,7 @@ extension ViewController {
     
     // Add video to the sequence
     let videoSequence = VideoSequence(folderURL: folderURL)
-    videoSequence.addVideo(at: videoFileURL)
+    videoSequence.addVideo(at: videoFileURL, isSlideShow: false)
     
     // Get video resolution configuration
     let videoResolutionConfiguration = prepareVideoResolutionConfiguration()
@@ -42,7 +42,7 @@ extension ViewController {
     // Expected non-zero video aspect ratio constructor. Apply transform effect after adding required asset.
     // Apply temporary original rotation.
     let originalRotation: AssetRotation = .rotate90
-    effectApplicator?.addTransformEffect(atStartTime: .zero, end: .indefinite, rotation: originalRotation)
+    effectApplicator?.addTransformEffect(atStartTime: .zero, end: .indefinite, rotation: originalRotation, isVideoFitsAspect: false)
     
     // Apply gif effect after transforming and adding relevant video editor asset
     applyOverlayEffect(withType: .gif)

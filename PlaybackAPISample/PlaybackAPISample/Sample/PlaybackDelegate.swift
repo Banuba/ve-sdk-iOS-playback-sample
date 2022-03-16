@@ -8,6 +8,7 @@
 import Foundation
 import AVFoundation
 import VEPlaybackSDK
+import BanubaUtilities
 
 // MARK: - VideoEditorPlayerDelegate
 extension ViewController: VideoEditorPlayerDelegate {

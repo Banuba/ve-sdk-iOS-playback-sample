@@ -10,7 +10,7 @@ import Foundation
 // Banuba modules
 import VideoEditor
 import BanubaUtilities
-import BanubaVideoEditorEffectsSDK
+import VEEffectsSDK
 import VEPlaybackSDK
 
 // MARK: - Video editor service initialization
