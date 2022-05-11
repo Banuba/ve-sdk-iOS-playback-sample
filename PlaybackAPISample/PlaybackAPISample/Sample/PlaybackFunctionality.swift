@@ -28,4 +28,18 @@ extension ViewController {
     // Start playing
     playableView?.videoEditorPlayer?.startPlay(loop: true, fixedSpeed: false)
   }
+  
+  func setupAppStateHandler() {
+    appStateObserver = AppStateObserver(delegate: self)
+  }
+}
+
+// MARK: - App state observer
+extension ViewController: AppStateObserverDelegate {
+  func applicationWillResignActive(_ appStateObserver: AppStateObserver) {
+    playableView?.videoEditorPlayer?.stopPlay()
+  }
+  func applicationDidBecomeActive(_ appStateObserver: AppStateObserver) {
+    playableView?.videoEditorPlayer?.startPlay(loop: true, fixedSpeed: false)
+  }
 }

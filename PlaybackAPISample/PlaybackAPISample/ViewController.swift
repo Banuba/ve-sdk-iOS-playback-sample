@@ -9,6 +9,7 @@ import UIKit
 import VideoEditor
 import VEPlaybackSDK
 import VEEffectsSDK
+import BanubaUtilities
 
 class ViewController: UIViewController {
   
@@ -27,11 +28,16 @@ class ViewController: UIViewController {
   // MARK: - VideoPlayableView
   var playableView: VideoPlayableView?
 
+  // MARK: - AppStateObserver
+  var appStateObserver: AppStateObserver?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     playerContainerView.isHidden = true
     // Initialize VideoEditorService with input params
     initializeVideoEditorService()
+    // Sign app state observer delegate
+    setupAppStateHandler()
   }
 }
 
