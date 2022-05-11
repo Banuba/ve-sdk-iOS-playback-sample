@@ -8,7 +8,7 @@
 import UIKit
 import VideoEditor
 import VEPlaybackSDK
-import BanubaVideoEditorEffectsSDK
+import VEEffectsSDK
 
 class ViewController: UIViewController {
   

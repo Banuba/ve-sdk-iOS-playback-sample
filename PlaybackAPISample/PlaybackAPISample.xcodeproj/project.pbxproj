@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		313DF6EA028E2362B2C84B08 /* libPods-PlaybackAPISample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6FA7C80571AD192891B43C /* libPods-PlaybackAPISample.a */; };
+		1712E7207DC3FF025511761B /* libPods-PlaybackAPISample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D01CD58AF31E0750E143C41 /* libPods-PlaybackAPISample.a */; };
 		8A70F6E6275F66F200CACBE8 /* luts in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F6E4275F66F200CACBE8 /* luts */; };
 		8A70F6E7275F66F200CACBE8 /* GifExample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F6E5275F66F200CACBE8 /* GifExample.gif */; };
 		8A70F6F3275F66FC00CACBE8 /* EffectsApplicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F6E9275F66FB00CACBE8 /* EffectsApplicator.swift */; };
@@ -28,8 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39C8785D6E853BCF0410A4B9 /* Pods-PlaybackAPISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaybackAPISample.debug.xcconfig"; path = "Target Support Files/Pods-PlaybackAPISample/Pods-PlaybackAPISample.debug.xcconfig"; sourceTree = "<group>"; };
-		6A6FA7C80571AD192891B43C /* libPods-PlaybackAPISample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlaybackAPISample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D01CD58AF31E0750E143C41 /* libPods-PlaybackAPISample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlaybackAPISample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A70F6E4275F66F200CACBE8 /* luts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = luts; sourceTree = "<group>"; };
 		8A70F6E5275F66F200CACBE8 /* GifExample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GifExample.gif; sourceTree = "<group>"; };
 		8A70F6E9275F66FB00CACBE8 /* EffectsApplicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsApplicator.swift; sourceTree = "<group>"; };
@@ -49,7 +48,8 @@
 		8ACE332D275F5C35008FA2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ACE3330275F5C35008FA2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ACE3332275F5C35008FA2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1E7BD2BC84D814E3FDD0BB5 /* Pods-PlaybackAPISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaybackAPISample.release.xcconfig"; path = "Target Support Files/Pods-PlaybackAPISample/Pods-PlaybackAPISample.release.xcconfig"; sourceTree = "<group>"; };
+		A24D3FB360A137BCCB357330 /* Pods-PlaybackAPISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaybackAPISample.debug.xcconfig"; path = "Target Support Files/Pods-PlaybackAPISample/Pods-PlaybackAPISample.debug.xcconfig"; sourceTree = "<group>"; };
+		D31BBF18010BCF003DDA160B /* Pods-PlaybackAPISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaybackAPISample.release.xcconfig"; path = "Target Support Files/Pods-PlaybackAPISample/Pods-PlaybackAPISample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,21 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				313DF6EA028E2362B2C84B08 /* libPods-PlaybackAPISample.a in Frameworks */,
+				1712E7207DC3FF025511761B /* libPods-PlaybackAPISample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2720677635C7A68CCB1072FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A6FA7C80571AD192891B43C /* libPods-PlaybackAPISample.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8A70F6E8275F66FB00CACBE8 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +94,7 @@
 				8ACE3323275F5C34008FA2D1 /* PlaybackAPISample */,
 				8ACE3322275F5C34008FA2D1 /* Products */,
 				A5CF8E0C5142F43AE9CD7C3C /* Pods */,
-				2720677635C7A68CCB1072FC /* Frameworks */,
+				8DF4A7655F7A6D35E27D4214 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,11 +123,19 @@
 			path = PlaybackAPISample;
 			sourceTree = "<group>";
 		};
+		8DF4A7655F7A6D35E27D4214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D01CD58AF31E0750E143C41 /* libPods-PlaybackAPISample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5CF8E0C5142F43AE9CD7C3C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				39C8785D6E853BCF0410A4B9 /* Pods-PlaybackAPISample.debug.xcconfig */,
-				E1E7BD2BC84D814E3FDD0BB5 /* Pods-PlaybackAPISample.release.xcconfig */,
+				A24D3FB360A137BCCB357330 /* Pods-PlaybackAPISample.debug.xcconfig */,
+				D31BBF18010BCF003DDA160B /* Pods-PlaybackAPISample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -147,11 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ACE3335275F5C35008FA2D1 /* Build configuration list for PBXNativeTarget "PlaybackAPISample" */;
 			buildPhases = (
-				DFF9DEFC442DBD92DA8D51A9 /* [CP] Check Pods Manifest.lock */,
+				C76DAE67096855F61936400F /* [CP] Check Pods Manifest.lock */,
 				8ACE331D275F5C34008FA2D1 /* Sources */,
 				8ACE331E275F5C34008FA2D1 /* Frameworks */,
 				8ACE331F275F5C34008FA2D1 /* Resources */,
-				78E39C71EDB5BB18A5BA4C80 /* [CP] Embed Pods Frameworks */,
+				58CBA9C75CA9D64A6A516B29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,7 +211,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78E39C71EDB5BB18A5BA4C80 /* [CP] Embed Pods Frameworks */ = {
+		58CBA9C75CA9D64A6A516B29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,7 +228,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlaybackAPISample/Pods-PlaybackAPISample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFF9DEFC442DBD92DA8D51A9 /* [CP] Check Pods Manifest.lock */ = {
+		C76DAE67096855F61936400F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,7 +412,7 @@
 		};
 		8ACE3336275F5C35008FA2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C8785D6E853BCF0410A4B9 /* Pods-PlaybackAPISample.debug.xcconfig */;
+			baseConfigurationReference = A24D3FB360A137BCCB357330 /* Pods-PlaybackAPISample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +443,7 @@
 		};
 		8ACE3337275F5C35008FA2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E7BD2BC84D814E3FDD0BB5 /* Pods-PlaybackAPISample.release.xcconfig */;
+			baseConfigurationReference = D31BBF18010BCF003DDA160B /* Pods-PlaybackAPISample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
