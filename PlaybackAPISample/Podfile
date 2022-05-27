@@ -5,12 +5,14 @@ source 'https://github.com/CocoaPods/Specs.git'
 # platform :ios, '9.0'
 
 target 'PlaybackAPISample' do
-  pod 'BanubaSDKServicing', '1.22.0'
-  pod 'VideoEditor', '1.22.0'
-  pod 'BanubaUtilities', '1.22.0'
- pod 'VEEffectsSDK', '1.22.0'
-  pod 'BanubaLicenseServicingSDK', '1.22.0'
-  pod 'BNBLicenseUtils', '1.22.0'
+  pod 'BanubaSDKServicing', '1.23.0'
+  pod 'VideoEditor', '1.23.0'
+  pod 'BanubaUtilities', '1.23.0'
+  pod 'VEEffectsSDK', '1.23.0'
+  pod 'BanubaLicenseServicingSDK', '1.23.0'
+  pod 'VEPlaybackSDK', '1.23.0'
+
+  pod 'BNBLicenseUtils', '1.22.1'
+
   pod "BSImagePicker"
-  pod 'VEPlaybackSDK', '1.22.0'
 end
