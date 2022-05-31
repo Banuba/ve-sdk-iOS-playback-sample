@@ -73,7 +73,11 @@ Before displaying playable video you need to add your video asset to existing `V
 ``` swift
     // Add video to the sequence
     let videoSequence = VideoSequence(folderURL: folderURL)
-    videoSequence.addVideo(at: videoFileURL)
+    videoSequence.addVideo(
+      at: videoFileURL,
+      isSlideShow: false,
+      transition: .normal
+    )
 
     // Create VideoEditorAsset from relevant sequence
     let videoEditorAsset = VideoEditorAsset(
