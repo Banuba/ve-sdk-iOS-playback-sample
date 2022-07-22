@@ -1,0 +1,6 @@
+module Pods_PlaybackAPISample {
+  umbrella header "Pods-PlaybackAPISample-umbrella.h"
+
+  export *
+  module * { export * }
+}
